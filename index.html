@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuadSolver.</title>
+</head>
+<body>
+    <div id="container">
+        <img id="equation" src="math-20240327.png" alt="eq">
+    </div>
+    <div id="super">
+        
+        <div id="abc">
+            <div class="qs"><label>a</label> <input id="a"></div>
+            <div class="qs"><label>b</label> <input id="b"></div>
+            <div class="qs"><label>c</label> <input id="c"></div>
+        </div>
+
+        <div id="btOP">
+            <button id="click" onclick="clearAll()" style="width: 50px;">×</button>
+            <button id="click" onclick="calculate()">Calculate.</button>
+        </div>
+
+        <div id="xx">
+            <div class="an"><label>x</label> <input id="answer1" readonly></div>
+            <div class="an"><label>x</label> <input id="answer2" readonly></div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
